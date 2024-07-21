@@ -36,5 +36,32 @@
 ▶ 여러개의 Reducer를 하나로 합쳐주는 역할을 한다.
 
 
+## useSelector
+
+▶store에 있는 값을 가져오기 위함 
+
+ ## useDispatch
+
+ ▶redux action을 사용하기 위한 hook 
+
+ ## createSelector 
+
+ ▶reselect pakage에 있는 함수  Memoization등 캐싱을 하기 위해 사용 
+
+ ## Context API 
+
+ ▶props-drilling을 제거하기 위해 탄생 간단한 전역변수를 선언할때 사용 
+ ▶provider -> 값을 제공해주기 위하여 root component로 사용 
+ ▶consumer -> 제공된 값에 접근할 수 있도록 하는것 
+ ▶주로 static한 잘 변경되지 않는 정보에 대해서 적용 -> app theme저장 다국적 앱에서 언어팩 
+
+ ## Recoil 
+
+ ▶ `npm install recoil`로 설치
+ ▶Atom -> 상태의 단위 업데이트 또는 subscribe등이 가능 
+ ▶selectors -> atoms나 selector의 파생데이터를 계산하는데 사용 
+
+
+
 
 
